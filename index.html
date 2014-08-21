@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=no;"/>
+		<link rel="stylesheet" href="css/2048.css?v=1.2">
+		<title>2048小游戏</title>
+	</head>
+	<body>
+		<header>
+			<h1>2048</h1>
+			<p>得分:<span class="score">0</span></p>
+			<div class="btn">
+				<div class="newgame" id="newgame">新游戏</div>
+				<div class="share">分享到朋友圈</div>
+			</div>
+			
+		</header>
+		<div class="mainBox">
+			<div class="grid-cell" id="grid-cell-0-0"></div>
+			<div class="grid-cell" id="grid-cell-0-1"></div>
+			<div class="grid-cell" id="grid-cell-0-2"></div>
+			<div class="grid-cell" id="grid-cell-0-3"></div>
+
+			<div class="grid-cell" id="grid-cell-1-0"></div>
+			<div class="grid-cell" id="grid-cell-1-1"></div>
+			<div class="grid-cell" id="grid-cell-1-2"></div>
+			<div class="grid-cell" id="grid-cell-1-3"></div>
+
+			<div class="grid-cell" id="grid-cell-2-0"></div>
+			<div class="grid-cell" id="grid-cell-2-1"></div>
+			<div class="grid-cell" id="grid-cell-2-2"></div>
+			<div class="grid-cell" id="grid-cell-2-3"></div>
+
+			<div class="grid-cell" id="grid-cell-3-0"></div>
+			<div class="grid-cell" id="grid-cell-3-1"></div>
+			<div class="grid-cell" id="grid-cell-3-2"></div>
+			<div class="grid-cell" id="grid-cell-3-3"></div>
+		</div>
+		<p class="tips">
+			键盘上使用a,s,w,d控制。<br>
+			关闭窗口时会保存游戏进度，需要重新游戏，请按“新游戏”按钮。
+		</p>
+	</body>
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+	<script src="js/2048-support.js?v=1.2"></script>
+	<script src="js/2048-animation.js?v=1.2"></script>
+	<script src="js/2048-main.js?v=1.2"></script>
+</html>

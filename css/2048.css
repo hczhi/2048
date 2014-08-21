@@ -1,0 +1,12 @@
+body,p,span,div,h1{margin: 0;}
+body{ font:14px/2em "Arial","微软雅黑";color: #666;}
+header{ text-align: center; padding: 10px 0;}
+h1{ color: #666; font-size: 2em;}
+header span{color: #fc0;}
+.newgame{ width:80px; background: #FFEFCD; color: #E6A419; height: 28px; margin: 0 auto; border-radius: 5px; text-shadow:1px 1px 1px #fff; cursor: pointer;}
+.mainBox{width: 80%; background:#FFEFCD;border-radius: 5px; position: relative; margin: 0 auto; }
+.grid-cell{position: absolute; background: #ddd;border-radius: 5px; }
+.numcell{width: 0px; height: 0px; position: absolute; text-align: center; color: #fff; font-size: 20px;}
+.tips{ padding: 20px 30px;}
+.share{ width:100px; background: #67C5FA; color: #FFFFFF; height: 28px; border-radius: 5px; text-shadow:1px 1px 1px #5FB7F1; cursor: pointer; position: absolute; right: 0px;top: 0px;}
+.btn{width: 320px; margin: 0 auto; position: relative; }
